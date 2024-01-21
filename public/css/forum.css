@@ -1,0 +1,71 @@
+
+	#txt p.forum_stat{
+			margin: 0 0 2em 0;
+			font-family:Verdana, Helvetica, sans-serif;
+			font-size:10px;			
+			}
+		
+	#txt a.out{margin-left: 30px;}
+
+
+	#txt.forum h3{ font-size: 1.3em; clear:left;}
+	#txt.forum h4{ font-size: 1em; clear:left;}
+		
+	#txt.forum .back{										
+					float:left;									
+					margin: 20px 0 0 0;
+					font-family:Verdana, Helvetica, sans-serif;
+					font-size: 10px;					
+					}
+					
+	#txt.forum p{ margin-bottom: 0.3em;}
+	
+
+/* ----------------------------------------------------  TABLE STYLES */
+	table.forum{ margin: 2em 0;}
+	table.forum td{ padding: 5px;}
+
+	table.forum a{
+				text-decoration: none;
+				}
+				
+	table tr.ttl{
+				color: white;
+				font-weight:bold;
+				background-color: #b92e2e;
+				}
+				
+/* ----------------------------------------------------------- COMMENT FIELDS STYLES */				
+	#txt.forum form{ float:left; margin:0.4em 0;}
+	#txt.forum input{ margin-bottom: 10px;}
+	#txt.forum textarea{ width: 700px; margin-bottom: 10px; }
+	
+	
+	.comment_title{
+				display:table;				
+				width: 100%;
+				background-color: #ecdb93;
+				margin-bottom: 2px;
+				padding: 3px;
+				clear:both;						
+				}	
+	
+	.comment_title dt{
+					float:left;
+					width: 450px;
+					}
+
+	.comment_title img{
+					float:left;
+					margin-right: 6px;
+					}
+					
+	.comment_title dd{
+					display:inline;
+					float:right;														
+					}
+					
+/* ----------------------------------------------------------- COMMENT FIELDS STYLES */				
+	#txt form{ float:left; margin:0.4em 0;}
+	#txt input{ margin-bottom: 10px;}
+	#txt textarea{ width: 700px; margin-bottom: 10px; }

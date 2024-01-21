@@ -1,0 +1,249 @@
+
+	#txt{
+			display:inline;
+			float:left;
+			width: 720px;			
+			text-align: left;
+			font-size: 0.8em;
+			clear:both;
+			}	
+/*==========================================================   TITLES ============= */	
+	h2{
+		height: 34px;
+		margin-bottom: 10px;
+		background-repeat: no-repeat;
+		background-position: left;		
+		}
+		
+	h2 span{ visibility: hidden;}		
+	h2#news{ background-image:url(../img/title/news.gif);}
+	h2#discography{ background-image:url(../img/title/discography.gif);}
+	h2#gallery{ background-image:url(../img/title/galleries.gif);}
+	h2#bio{ background-image:url(../img/title/bio.gif);}
+	h2#forum{ background-image:url(../img/title/forum.gif);}
+	h2#contact{ background-image:url(../img/title/contacts.gif);}
+	h2#register{ background-image:url(../img/title/register.gif);}
+	h2#login{ background-image:url(../img/title/login.gif);}
+	h2#recover{ background-image:url(../img/title/recover.gif);}
+	h2#profile{ background-image:url(../img/title/profile.gif);}
+	h2#feed{background-image:url(../img/title/feed.gif);}
+	
+	
+	#wrapper h3{
+				color: #b92e2e;
+				font-family: Arial, Helvetica, sans-serif;
+				font-size: 0.9em;
+				}
+	.video{ 			
+			display:block;
+			width: 500px;
+			height: 410px;		
+			clear:both;
+			}
+	.article .video{
+			margin-left: 80px;
+			}
+			
+	.audio{ 
+			float:left;
+			display:block;
+			width: 500px;
+			height: 80px;		
+			clear:both;
+			}
+/* ============================================================ SOME TEXT STYLES  ======= */ 
+
+/*--------------------------------      NEWS  */
+	#txt.news h2{ margin-left: 100px; margin-bottom: 30px;}
+	#txt.news h3{ margin-left: 100px;text-transform:uppercase;}
+	#txt.news p{margin:0 80px 2em 100px;}
+				
+/*--------------------------------      ARTICLE */
+	#txt.article { 
+				display:block;				
+				margin-bottom: 50px; 
+				clear:both;
+				}
+	#txt.article h2{
+					color:#b92e2e;
+					font-size: 1em;
+					margin: 2em 0 0 0;
+					text-transform:uppercase;
+					}
+
+	#txt.article p{ margin:0 40px 0.7em 100px;}
+					
+	#txt.article .back{
+					font-family:Verdana, Arial, Helvetica, sans-serif;
+					font-size: 10px;
+					margin-top: 20px;
+					clear:both;
+					}
+					
+/*--------------------------------      GALLERY */
+
+	#txt.gallery .back{
+					float:left;
+					font-family:Verdana, Arial, Helvetica, sans-serif;
+					font-size: 10px;
+					margin: 20px 0 30px 0;					
+					}
+					
+	#txt.gallery h2{
+					color:#b92e2e;
+					font-size: 1em;	
+					text-transform:uppercase;
+					clear:left;								
+					}
+					
+	div#img{float:left;}				
+	#txt.gallery a img{
+					padding: 8px;					
+					border:none;		
+					}
+					
+	#txt.gallery #img a{
+					display:block;
+					float:left;
+					margin: 0 5px 5px 0;
+					border:1px solid #c9c085;
+					background-color: #fff5c8;
+					}
+					
+	#txt.gallery #img a:hover{ border-color:#c93e2d; background-color:#c9c085;}				
+	#txt.gallery p{ margin: 1em 0; clear:left;}
+	
+	/*--------------------------------      PHOTO */	
+	
+	/*----------------------   image control bar in photo page */
+	ul.moveLine{
+				display:block; 
+				width: 220px; 
+				height: 17px;				
+				padding:3px 0 0 500px;
+				text-decoration:none; 
+				background-color:#ecdb93; 
+				clear:both;				
+				}
+				
+	ul.moveLine li{ display:inline; float:left; color:#c93e2d; font-family:Verdana, Arial, Helvetica, sans-serif; font-size: 10px; font-weight:bold;}
+	ul.moveLine li a{}
+	ul.moveLine li.ff{ margin-left: 80px;}
+	
+	#txt.gallery #photo{
+						width: 718px;
+						margin: 10px 0;
+						background-color:#fff6ce;
+						text-align: center;
+						border:1px solid #cbbe82;
+						}
+	/*-------------------------   photo div   */					
+	#txt.gallery #photo img{ padding: 10px;}
+	#txt.gallery h3{ margin-top: 1em;}
+	
+/*--------------------------------      BIO */	
+	#txt.bio h3{clear:left;}
+	#txt.bio dl{margin-left: 30px;}
+	#txt.bio dt{display:inline;float:left; width: 120px; margin-right:20px;clear:left;}
+	#txt.bio dd{float:left; width: 400px;}
+	#txt.bio p{ margin-bottom: 1em;}
+	
+/*--------------------------------      LOGIN */
+	#txt.log h2{ margin-left: 100px; margin-bottom: 30px;}
+
+/*--------------------------------      DISCOGRAPHY */
+	div.album{
+			float:left;
+			width: 573px;
+			padding:  10px 0 10px 85px;
+			color: #b92e2e;
+			border-bottom: 1px solid #cbbe82;
+			clear:both;
+			}
+	
+	div.album p{
+			padding:0;
+			margin:0 0 0 50px;
+			font-family: Verdana, Helvetica, sans-serif;
+			font-size: 0.8em;			
+			}
+
+	div.album p.link{margin-top: 12px; font-weight: bold;}
+				
+	.album img{
+				float:left;
+				padding: 0 15px 0 0;			
+				}
+/*--------------------------------      ALBUM */
+	img.cover{ 
+			float:left;
+			clear:left;
+			}
+
+	#coverbox{
+			float:left;
+			margin-left: 20px;				
+			}
+	
+	div#coverbox h2{
+				margin:0;
+				padding:0;
+				}
+				
+	div#coverbox p{
+				margin: 0;
+				padding:0;
+				font-family:Verdana, Helvetica, sans-serif;
+				font-size: 0.9em;
+				}		
+			
+	dl.song{
+			display:block;
+			width: 620px;
+			height: 14px;
+			padding: 4px;
+			margin:0 0 3px 0;
+			font-family: Verdana, Helvetica, sans-serif;
+			font-size: 0.9em;
+			color: #b92e2e;
+			background-color:#fff6ce;
+			border: 1px solid #cbbe82;
+			clear:both;
+			}
+			
+	dl.song dt{ 
+			float:left;
+			width: 250px;			
+			}
+
+	dl.song dd{ 
+			float:left;
+			width: 40px;
+			margin-left: 30px;
+			}
+			
+	dl.song dd a{
+				 font-size: 10px;
+				 font-weight: bold;
+				 text-decoration:none;
+				 }
+
+/*--------------------------------      CONTACT */
+
+	#txt.contact form{ margin: 50px 0;}
+	#txt.contact label{
+ 						float:left;
+						width: 100px;
+						padding-right: 20px;
+						text-align:right;
+						clear:left;
+						}
+	#txt.contact input{ width: 250px; margin-bottom:4px;}
+	#txt.contact input.btn{ width: auto;}
+	#txt.contact select{ width: 254px;}
+	#txt.contact textarea{ 
+							display:block;
+							width: 460px;
+							margin: 0 0 4px 120px;
+							clear:both;
+							}

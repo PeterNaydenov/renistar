@@ -1,0 +1,22 @@
+---
+import General from "../layouts/General.astro"
+import discographyList from './album/_discography-list.json'
+
+const list = [...discographyList].reverse();
+
+
+---
+<General>
+<div class="wrapper">
+    <h2>Дискография</h2>
+    { list.map ( disc => (
+                <div class="album">
+                        <a href="album.php?pg=12"><img src={`/img/album_cover/${disc.cover}`} alt="ico" /></a>
+                        <h3>{disc.title}</h3>
+                        <p>година: {disc.year}</p>
+                        <p>издател: {disc.producer}</p>
+                        <p class="link"><a href={`/album/${disc.album_id}`}>виж повече</a></p>
+                    </div>
+                ))}
+</div>
+</General>

@@ -1,0 +1,1636 @@
+[
+        {
+                  "id" : 0
+                , "album_id" : 0
+        },
+        {
+                        "id" : 1
+                        ,"album_id" : 1
+                        , "title"   : "Искам те"
+                        , "time"    : "4:10"
+                        , "text"    : true
+                        , "audio"   : "D"
+                        , "video"   : "1gnj-m3FWvY?si=CcEIhCRaqWZ08QFG"
+                        , "gallery" : ""
+                        , "slug"    : "iskam-te"
+                }
+        , {
+                        "id"      : 2
+                        , "album_id" : 1
+                        , "title"   : "Плакала съм нощем дълго"
+                        , "time"    : "3:30"
+                        , "text"    : true
+                        , "audio"   : "D"
+                        , "video"   : "UeBkDiGj960?si=6_LuGLBrPYAJBnKc"
+                        , "gallery" : ""
+                        , "slug"   : "plakala-sam-noshtem-dulgo"
+                }
+        , {
+                        "id" : 3
+                        , "album_id" : 1
+                        , "title"   : "Леле, леле"
+                        , "time"    : "3:14"
+                        , "text"    : true
+                        , "audio"   : "D"
+                        , "video"   : "oeRv-HYHMic?si=Qir2CjOjLPTyNXA8"
+                        , "gallery" : ""
+                        , "slug"   : "lele-lele"
+                }
+        , {
+                        "id" : 4
+                        , "album_id" : 1
+                        , "title"   : "Прости ми, мамо"
+                        , "time"    : "3:27"
+                        , "text"    : true
+                        , "audio"   : "D"
+                        , "video"   : "2kbva_7PgRo?si=E6aeyu8u_2xFkSoa"
+                        , "gallery" : ""
+                        , "slug"   : "prosti-mi-mamo"
+                }
+        , {
+                        "id" : 5
+                        , "album_id" : 1
+                        , "title"   : "Иманяр печалбар"
+                        , "time"    : "3:18"
+                        , "text"    : true
+                        , "audio"   : "D"
+                        , "video"   : false
+                        , "gallery" : ""
+                        , "slug"   : "imanyar-pechalbar"
+                }
+        , {
+                        "id" : 6
+                        , "album_id" : 1
+                        , "title"   : "Когато си изгубил любовта"
+                        , "time"    : "3:32"
+                        , "text"    : true
+                        , "audio"   : "D"
+                        , "video"   : false
+                        , "gallery" : ""
+                        , "slug"   : "kogato-si-izgubil-lubovta"
+                }
+        , {
+                        "id" : 7
+                        , "album_id" : 1
+                        , "title"   : "Водопад от любов"
+                        , "time"    : "3:19"
+                        , "text"    : true
+                        , "audio"   : "D"
+                        , "video"   : "CAd9xFu-ucc?si=516KGAZ4Ibl1PoRp"
+                        , "gallery" : ""
+                        , "slug"   : "vodopad-ot-lubov"
+                }
+        , {
+                        "id" : 8
+                        , "album_id" : 1
+                        , "title"   : "Шепотът на сърцето"
+                        , "time"    : "2:59"
+                        , "text"    : true
+                        , "audio"   : "D"
+                        , "video"   : "PGw0PB59jc4?si=CHdv8kjuWl2d5Fem"
+                        , "gallery" : ""
+                        , "slug"   : "shepotut-na-surceto"
+                }
+        , {
+                        "id" : 9
+                        , "album_id" : 1
+                        , "title"   : "Лъжеш ме"
+                        , "time"    : "3:03"
+                        , "text"    : true
+                        , "audio"   : "D"
+                        , "video"   : false
+                        , "gallery" : ""
+                        , "slug"   : "lujesh-me"
+                }
+        , {
+                        "id" : 10
+                        , "album_id" : 1
+                        , "title"   : "Само с обич искам да живея"
+                        , "time"    : "4:18"
+                        , "text"    : true
+                        , "audio"   : "D"
+                        , "video"   : false
+                        , "gallery" : ""
+                        , "slug"   : "samo-s-obich-iskam-da-jiveya"
+                }
+
+
+
+
+
+        , {
+                        "id" : 11
+                        , "album_id" : 2                        
+                        , "title"   : "Slobodna sam kao ptica"
+                        , "time"     : "3:19"
+                        , "text"     : true
+                        , "audio"    : ""
+                        , "video"    : ""
+                        , "gallery"  : ""
+                        , "slug"     : "srb-slobodna-sam-kao-ptica"
+                }
+        , {
+                        "id" : 12
+                        , "album_id" : 2
+                        , "title"   : "Lep kao lutka"
+                        , "time"    : "3:21"
+                        , "text"    : true
+                        , "audio"   : "D"
+                        , "video"   : ""
+                        , "gallery" : ""
+                        , "slug"    : "srb-lep-kao-lutka"
+                }   
+        , {
+                        "id" : 13
+                        , "album_id" : 2
+                        , "title"   : "Avantura"
+                        , "time"    : "4:00"
+                        , "text"    : true
+                        , "audio"   : "D"
+                        , "video"   : ""
+                        , "gallery" : ""
+                        , "slug"    : "srb-avantura"
+                }
+        , {
+                        "id" : 14
+                        , "album_id" : 2
+                        , "title"   : "Ljubomorno srce"
+                        , "time"    : "2:53"
+                        , "text"    : true
+                        , "audio"   : "D"
+                        , "video"   : ""
+                        , "gallery" : ""
+                        , "slug"    : "srb-ljubomorno-srce"
+                }
+        , {
+                        "id" : 15
+                        , "album_id" : 2
+                        , "title"   : "Barbika"
+                        , "time"    : "3:22"
+                        , "text"    : true
+                        , "audio"   : "D"
+                        , "video"   : ""
+                        , "gallery" : ""
+                        , "slug"    : "srb-barbika"
+                }
+        , {
+                        "id" : 16
+                        , "album_id" : 2
+                        , "title"   : "Ogledalo"
+                        , "time"    : "3:57"
+                        , "text"    : true
+                        , "audio"   : "D"
+                        , "video"   : ""
+                        , "gallery" : ""
+                        , "slug"    : "srb-ogledalo"
+                }
+        , {
+                        "id" : 17
+                        , "album_id" : 2
+                        , "title"   : "Zabava je zavrsena"
+                        , "time"    : "4:28"
+                        , "text"    : true
+                        , "audio"   : "D"
+                        , "video"   : ""
+                        , "gallery" : ""
+                        , "slug"    : "srb-zabava-je-zavrsena"
+                }
+        , {
+                        "id" : 18
+                        , "album_id" : 2
+                        , "title"   : "Dusa narodna"
+                        , "time"    : "2:46"
+                        , "text"    : true
+                        , "audio"   : "D"
+                        , "video"   : ""
+                        , "gallery" : ""
+                        , "slug"    : "srb-dusa-narodna"
+                }
+
+
+
+
+
+        , {
+                        "id" : 19
+                        , "album_id" : 3
+                        , "title"   : "Като птица съм свободна"
+                        , "time"    : "3:15"
+                        , "text"    : true
+                        , "audio"   : "D"
+                        , "video"   : "58gZdQW52zw?si=laJEJwQcagXRBtxU"
+                        , "gallery" : ""
+                        , "slug"    : "kato-ptica-sam-svobodna"
+                }
+        , {
+                        "id" : 20
+                        , "album_id" : 3
+                        , "title"   : "Хей, любов ти стара"
+                        , "time"    : "2:45"
+                        , "text"    : true
+                        , "audio"   : "D"
+                        , "video"   : false
+                        , "gallery" : ""
+                        , "slug"    : "hey-lubov-ti-stara"
+                }
+        , {
+                        "id" : 21
+                        , "album_id" : 3
+                        , "title"   : "Луда обич"
+                        , "time"    : "3:16"
+                        , "text"    : true
+                        , "audio"   : "D"
+                        , "video"   : false
+                        , "gallery" : ""
+                        , "slug"    : "luda-obich"
+                }
+        , {
+                        "id" : 22
+                        , "album_id" : 3
+                        , "title"   : "Балът свърши"
+                        , "time"    : "4:30"
+                        , "text"    : true
+                        , "audio"   : "D"
+                        , "video"   : false
+                        , "gallery" : ""
+                        , "slug"    : "balat-svurshi"
+                }
+        , {
+                        "id" : 23
+                        , "album_id" : 3
+                        , "title"   : "Не се страхувам"
+                        , "time"    : "3:55"
+                        , "text"    : true
+                        , "audio"   : "D"
+                        , "video"   : "u5CGjD-TRPU?si=PqKlqJmtc4PavldB"
+                        , "gallery" : ""
+                        , "slug"    : "ne-se-strahuvam"
+                }
+        , {
+                        "id" : 24
+                        , "album_id" : 3
+                        , "title"   : "Сърце ревниво"
+                        , "time"    : "3:20"
+                        , "text"    : true
+                        , "audio"   : "D"
+                        , "video"   : false
+                        , "gallery" : ""
+                        , "slug"    : "surce-revnivo"
+                }
+        , {
+                        "id" : 25
+                        , "album_id" : 3
+                        , "title"   : "Авантюра"
+                        , "time"    : "3:56"
+                        , "text"    : true
+                        , "audio"   : "D"
+                        , "video"   : false
+                        , "gallery" : ""
+                        , "slug"    : "avantura"
+                }
+        , {
+                        "id" : 26
+                        , "album_id" : 3
+                        , "title"   : "Ранена"
+                        , "time"    : "3:27"
+                        , "text"    : true
+                        , "audio"   : "D"
+                        , "video"   : "VM818xyTQIk?si=9ItxHOS_ERkqplvP"
+                        , "gallery" : ""
+                        , "slug"    : "ranena"
+                }
+        , {
+                        "id" : 27
+                        , "album_id" : 3
+                        , "title"   : "Кукла Барби"
+                        , "time"    : "3:18"
+                        , "text"    : true
+                        , "audio"   : "D"
+                        , "video"   : "kCExstGLTcw?si=1Igdzd7Tzmztnxh8"
+                        , "gallery" : ""
+                        , "slug"    : "kukla-barbi"
+                }
+        , {
+                        "id" : 28
+                        , "album_id" : 3
+                        , "title"   : "Огледало"
+                        , "time"    : "3:53"
+                        , "text"    : true
+                        , "audio"   : "D"
+                        , "video"   : ""
+                        , "gallery" : ""
+                        , "slug"    : "ogledalo"
+                }
+
+
+
+
+
+        , {
+                        "id" : 29
+                        , "album_id" : 4
+                        , "title"   : "Opasno te volim"
+                        , "time"    : "3:49"
+                        , "text"    : true
+                        , "audio"   : "D"
+                        , "video"   : "j9kXECqbY8w?si=HLT0MxZuzwDhvdSG"
+                        , "gallery" : ""
+                        , "slug"    : "srb-opasno-te-volim"
+                }
+        , {
+                        "id" : 30
+                        , "album_id" : 4
+                        , "title"   : "Mercedes"
+                        , "time"    : "3:16"
+                        , "text"    : true
+                        , "audio"   : "D"
+                        , "video"   : "qxKDkr4AL78?si=i2yin64DavlGNIVk"
+                        , "gallery"  : ""
+                        , "slug"    : "srb-mercedes"
+                }
+        , {
+                        "id" : 31
+                        , "album_id" : 4
+                        , "title"   : "Ne mogu"
+                        , "time"    : "3:15"
+                        , "text"    : true
+                        , "audio"   : "D"
+                        , "video"   : ""
+                        , "gallery"  : ""
+                        , "slug"    : "srb-ne-mogu"
+                }
+        , {
+                        "id" : 32
+                        , "album_id" : 4
+                        , "title"   : "Vencana sa tugom"
+                        , "time"    : "3:30"
+                        , "text"    : true
+                        , "audio"   : "D"
+                        , "video"   : ""
+                        , "gallery"  : ""
+                        , "slug"    : "srb-vencana-sa-tugom"
+                }
+        , {
+                        "id" : 33
+                        , "album_id" : 4
+                        , "title"   : "Kazes srce - srce cu ti dati"
+                        , "time"    : "3:20"
+                        , "text"    : true
+                        , "audio"   : "D"
+                        , "video"   : ""
+                        , "gallery"  : ""
+                        , "slug"    : "srb-kazes-srce-srce-cu-ti-dati"
+                }
+        , {
+                        "id" : 34
+                        , "album_id" : 4
+                        , "title"   : "Milioner"
+                        , "time"    : "3:12"
+                        , "text"    : true
+                        , "audio"   : "D"
+                        , "video"   : ""
+                        , "gallery"  : ""
+                        , "slug"    : "srb-milioner"
+                }
+        , {
+                        "id" : 35
+                        , "album_id" : 4
+                        , "title"   : "Daj, daj"
+                        , "time"    : "3:29"
+                        , "text"    : true
+                        , "audio"   : "D"
+                        , "video"   : ""
+                        , "gallery"  : ""
+                        , "slug"    : "srb-daj-daj"
+                }
+        , {
+                        "id" : 36
+                        , "album_id" : 4
+                        , "title"   : "Slamka spasa"
+                        , "time"    : "3:44"
+                        , "text"    : true
+                        , "audio"   : "D"
+                        , "video"   : "bSbR-_-LjqU?si=52x3efs-av2FWgGJ"
+                        , "gallery"  : ""
+                        , "slug"    : "srb-slamka-spasa"
+                }
+        , {
+                        "id" : 37
+                        , "album_id" : 4
+                        , "title"   : "Jedino ti"
+                        , "time"    : "3:05"
+                        , "text"    : true
+                        , "audio"   : "D"
+                        , "video"   : ""
+                        , "gallery"  : ""
+                        , "slug"    : "srb-jedino-ti"
+                }
+        , {
+                        "id" : 38
+                        , "album_id" : 4
+                        , "title"   : "Ne mogu ja to"
+                        , "time"    : "3:57"
+                        , "text"    : true
+                        , "audio"   : "D"
+                        , "video"   : ""
+                        , "gallery"  : ""
+                        , "slug"    : "srb-ne-mogu-ja-to"
+                }
+
+
+
+
+
+        , {
+                        "id" : 39
+                        , "album_id" : 5
+                        , "title"   : "Влюбих се опасно"
+                        , "time"    : "3:49"
+                        , "text"    : true
+                        , "audio"   : "D"
+                        , "video"   : "5Sv1jkBA8r0?si=CCWZvVASc43LTU2j"
+                        , "gallery" : ""
+                        , "slug"    : "vlubih-se-opasno"
+                }
+        , {
+                        "id" : 40
+                        , "album_id" : 5
+                        , "title"   : "И за теб ли е така"
+                        , "time"    : "3:59"
+                        , "text"    : true
+                        , "audio"   : "D"
+                        , "video"   : "QhGdNRy2qkM?si=oqITDauI01DIcE1Z"
+                        , "gallery"  : ""
+                        , "slug"    : "i-za-teb-li-e-taka"
+                }
+        , {
+                        "id" : 41
+                        , "album_id" : 5
+                        , "title"   : "Няма как"
+                        , "time"    : "3:16"
+                        , "text"    : true
+                        , "audio"   : "D"
+                        , "video"   : false
+                        , "gallery"  : ""
+                        , "slug"    : "nyama-kak"
+                }
+        , {
+                        "id" : 42
+                        , "album_id" : 5
+                        , "title"   : "Аз съм в плен на тази мъка"
+                        , "time"    : "3:31"
+                        , "text"    : true
+                        , "audio"   : "D"
+                        , "video"   : false
+                        , "gallery"  : ""
+                        , "slug"    : "az-sam-v-plen-na-tazi-maka"
+                }
+        , {
+                        "id" : 43
+                        , "album_id" : 5
+                        , "title"   : "Ако искаш"
+                        , "time"    : "3:20"
+                        , "text"    : true
+                        , "audio"   : "D"
+                        , "video"   : false
+                        , "gallery"  : ""
+                        , "slug"    : "ako-iskash"
+                }
+        , {
+                        "id" : 44
+                        , "album_id" : 5
+                        , "title"   : "Мили, мили разбери"
+                        , "time"    : "3:12"
+                        , "text"    : true
+                        , "audio"   : "D"
+                        , "video"   : false
+                        , "gallery"  : ""
+                        , "slug"    : "mili-mili-razberi"
+                }
+        , {
+                        "id" : 45
+                        , "album_id" : 5
+                        , "title"   : "Твоя първи грях"
+                        , "time"    : "3:29"
+                        , "text"    : true
+                        , "audio"   : "D"
+                        , "video"   : false
+                        , "gallery"  : ""
+                        , "slug"    : "tvoya-parvi-gryah"
+                }
+        , {
+                        "id" : 46
+                        , "album_id" : 5
+                        , "title"   : "Раздяла"
+                        , "time"    : "3:44"
+                        , "text"    : true
+                        , "audio"   : "D"
+                        , "video"   : "5uSNMjmFzA8?si=y9yvVv1dON23l-5C"
+                        , "gallery"  : "separation-the-video"
+                        , "slug"    : "razdyala"
+                }
+        , {
+                        "id" : 47
+                        , "album_id" : 5
+                        , "title"   : "Ти само, ти"
+                        , "time"    : "3:05"
+                        , "text"    : true
+                        , "audio"   : "D"
+                        , "video"   : false
+                        , "gallery"  : ""
+                        , "slug"    : "ti-samo-ti"
+                }
+        , {
+                        "id" : 48
+                        , "album_id" : 5
+                        , "title"   : "Трябва да реша"
+                        , "time"    : "3:57"
+                        , "text"    : true
+                        , "audio"   : "D"
+                        , "video"   : "-MIMyKn3dEg?si=Cg4ijiRyebDUw27C"
+                        , "gallery"  : "i-must-to-decide"
+                        , "slug"    : "tryabva-da-resha"
+                }
+        , {
+                        "id" : 49
+                        , "album_id" : 5
+                        , "title"   : "Лудо младо"
+                        , "time"    : "3:35"
+                        , "text"    : true
+                        , "audio"   : "D"
+                        , "video"   : "uAaVQ1J7984?si=Xvgdff4PdiUFriZE"
+                        , "gallery"  : ""
+                        , "slug"    : "ludo-mlado"
+                }
+
+
+
+
+
+        , {
+                        "id" : 50
+                        , "album_id" : 6
+                        , "title"   : "Ne bi ti"
+                        , "time"    : "3:36"
+                        , "text"    : true
+                        , "audio"   : "D"
+                        , "video"   : ""
+                        , "gallery"  : ""
+                        , "slug"    : "srb-ne-bi-ti"
+                }
+        , {
+                        "id" : 51
+                        , "album_id" : 6
+                        , "title"   : "Varaj posteno"
+                        , "time"    : "3:10"
+                        , "text"    : true
+                        , "audio"   : "D"
+                        , "video"   : "QYWhHjg7IcI?si=LBoqivi543IgkCf_"
+                        , "gallery"  : ""
+                        , "slug"    : "srb-varaj-posteno"
+                }
+        , {
+                        "id" : 52
+                        , "album_id" : 6
+                        , "title"   : "Papagaj"
+                        , "time"    : "3:09"
+                        , "text"    : true
+                        , "audio"   : "D"
+                        , "video"   : "fi4r1u85m-4?si=71sCAW-BQjv-ekiQ"
+                        , "gallery"  : ""
+                        , "slug"    : "srb-papagaj"
+                }
+        , {
+                        "id" : 53
+                        , "album_id" : 6
+                        , "title"   : "Zimzelena"
+                        , "time"    : "3:11"
+                        , "text"    : true
+                        , "audio"   : "D"
+                        , "video"   : false
+                        , "gallery"  : ""
+                        , "slug"    : "srb-zimzelena"
+                }
+        , {
+                        "id" : 54
+                        , "album_id" : 6
+                        , "title"   : "Nema dana ni meseca"
+                        , "time"    : "3:14"
+                        , "text"    : true
+                        , "audio"   : "D"
+                        , "video"   : "wngzXauWclg?si=Tsb5dZomXCySDDUB"
+                        , "gallery"  : ""
+                        , "slug"    : "srb-nema-dana-ni-meseca"
+                }
+        , {
+                        "id" : 55
+                        , "album_id" : 6
+                        , "title"   : "Crno more"
+                        , "time"    : "3:13"
+                        , "text"    : true
+                        , "audio"   : "D"
+                        , "video"   : ""
+                        , "gallery"  : ""
+                        , "slug"    : "srb-crno-more"
+                }
+        , {
+                        "id" : 56
+                        , "album_id" : 6
+                        , "title"   : "Nije, nije gotovo"
+                        , "time"    : "2:49"
+                        , "text"    : true
+                        , "audio"   : "D"
+                        , "video"   : "La4JR52tqhQ?si=3ZFHRKXy2aMF5823"
+                        , "gallery"  : ""
+                        , "slug"    : "srb-nije-nije-gotovo"
+                }
+        , {
+                        "id" : 57
+                        , "album_id" : 6
+                        , "title"   : "Vreme je"
+                        , "time"    : "3:18"
+                        , "text"    : true
+                        , "audio"   : "D"
+                        , "video"   : ""
+                        , "gallery"  : ""
+                        , "slug"    : "srb-vreme-je"
+                }
+        , {
+                        "id" : 58
+                        , "album_id" : 6
+                        , "title"   : "Bosanac"
+                        , "time"    : "3:32"
+                        , "text"    : true
+                        , "audio"   : "D"
+                        , "video"   : "HClEnslndDs?si=xrlHaJsZQR8WZGgw"
+                        , "gallery"  : ""
+                        , "slug"    : "srb-bosanac"
+                }
+        , {
+                        "id" : 59
+                        , "album_id" : 6
+                        , "title"   : "Godinu je dana"
+                        , "time"    : "3:37"
+                        , "text"    : true
+                        , "audio"   : "D"
+                        , "video"   : ""
+                        , "gallery"  : ""
+                        , "slug"    : "srb-godinu-je-dana"
+                }
+        
+
+
+
+        
+        , {
+                        "id" : 60
+                        , "album_id" : 7
+                        , "title"   : "Луда за любов"
+                        , "time"    : "3:34"
+                        , "text"    : true
+                        , "audio"   : "D"
+                        , "video"   : "8qQ1i_n8us4?si=VOOHBs3iHNy7NihH"
+                        , "gallery"  : "mad-for-love"
+                        , "slug"    : "luda-za-lubov"
+                }
+        , {
+                        "id" : 61
+                        , "album_id" : 7
+                        , "title"   : "Не мога без тебе"
+                        , "time"    : "3:12"
+                        , "text"    : true
+                        , "audio"   : "D"
+                        , "video"   : "R01ZPTnuL-M?si=6umYMzRAPXvG8l0h"
+                        , "gallery"  : "i-can-not-witout-you"
+                        , "slug"    : "ne-moga-bez-tebe"
+                }
+        , {
+                        "id" : 62
+                        , "album_id" : 7
+                        , "title"   : "Да се разделим"
+                        , "time"    : "3:10"
+                        , "text"    : true
+                        , "audio"   : "D"
+                        , "video"   : "b8YkU3hYNmQ?si=mOTjNX6O1MQCzo4z"
+                        , "gallery"  : "break-up"
+                        , "slug"    : "da-se-razdelim"
+                }
+        , {
+                        "id" : 63
+                        , "album_id" : 7
+                        , "title"   : "Какво е обич"
+                        , "time"    : "2:55"
+                        , "text"    : true
+                        , "audio"   : "D"
+                        , "video"   : "gHnCCgZ1Qj8?si=iLMfU1ea12TC9r94"
+                        , "gallery"  : "what-is-love-video"
+                        , "slug"    : "kakvo-e-obich"
+                }
+        , {
+                        "id" : 64
+                        , "album_id" : 7
+                        , "title"   : "На кръстопът"
+                        , "time"    : "3:10"
+                        , "text"    : true
+                        , "audio"   : "D"
+                        , "video"   : "qq-hy-qYgDA?si=c-u9gOXZxzQoyMft"
+                        , "gallery"  : ""
+                        , "slug"    : "na-krastopat"
+                }
+        , {
+                        "id" : 65
+                        , "album_id" : 7
+                        , "title"   : "Черни са ми дните"
+                        , "time"    : "3:15"
+                        , "text"    : true
+                        , "audio"   : "D"
+                        , "video"   : ""
+                        , "gallery"  : ""
+                        , "slug"    : "cherni-sa-mi-dnite"
+                }
+        , {
+                        "id" : 66
+                        , "album_id" : 7
+                        , "title"   : "Няма вече"
+                        , "time"    : "2:48"
+                        , "text"    : true
+                        , "audio"   : "D"
+                        , "video"   : "kwTeP16TVpI?si=B_VShcOyWBiorBYq"
+                        , "gallery"  : ""
+                        , "slug"    : "nyama-veche"
+                }
+        , {
+                        "id" : 67
+                        , "album_id" : 7
+                        , "title"   : "Уморих се"
+                        , "time"    : "3:33"
+                        , "text"    : true
+                        , "audio"   : "D"
+                        , "video"   : "2XHMMvaUrbg?si=fThK-7C5mRYp1TO8"
+                        , "gallery"  : ""
+                        , "slug"    : "umorih-se"
+                }
+        , {
+                        "id" : 68
+                        , "album_id" : 7
+                        , "title"   : "Прости ми, мамо"
+                        , "time"    : "3:32"
+                        , "text"    : true
+                        , "audio"   : "D"
+                        , "video"   : "HpxrAbbXxLo?si=GAkb6HbIjoP2Dl0V"
+                        , "gallery"  : ""
+                        , "slug"    : "prosti-mi-mamo"
+                }
+        , {
+                        "id" : 69
+                        , "album_id" : 7
+                        , "title"   : "Ден след ден"
+                        , "time"    : "3:37"
+                        , "text"    : true
+                        , "audio"   : "D"
+                        , "video"   : "buh769B2JmA?si=ZvdJh5cf3e7tWIcF"
+                        , "gallery"  : ""
+                        , "slug"    : "den-sled-den"
+                }
+        , {
+                        "id" : 70
+                        , "album_id" : 7
+                        , "title"   : "Време е"
+                        , "time"    : "3:15"
+                        , "text"    : true
+                        , "audio"   : "D"
+                        , "video"   : ""
+                        , "gallery"  : ""
+                        , "slug"    : "vreme-e"
+                }
+        , {
+                        "id" : 71
+                        , "album_id" : 7
+                        , "title"   : "Не мога без тебе /инструментал/"
+                        , "time"    : "3:12"
+                        , "text"    : false
+                        , "audio"   : "D"
+                        , "video"   : ""
+                        , "gallery"  : ""
+                        , "slug"    : "ne-moga-bez-tebe-instrumental"
+                }
+
+
+
+
+
+        , {
+                        "id" : 72
+                        , "album_id" : 8
+                        , "title"   : "Искам те (remix)"
+                        , "time"    : "5:04"
+                        , "text"    : true
+                        , "audio"   : "D"
+                        , "video"   : ""
+                        , "gallery" : ""
+                        , "slug"    : "iskam-te"
+                }
+        , {
+                        "id" : 73
+                        , "album_id" : 8
+                        , "title"   : "Сърцето ми тиктака"
+                        , "time"    : "4:44"
+                        , "text"    : true
+                        , "audio"   : "10.102_surceto-mi-tiktaka"
+                        , "video"   : "AIz7mtKEWr0?si=dY1TG42C7LUL-kxh"
+                        , "gallery" : ""
+                        , "slug"   : "surceto-mi-tiktaka"
+                }
+        , {
+                        "id" : 74
+                        , "album_id" : 8
+                        , "title"   : "Като птица съм свободна"
+                        , "time"    : "3:15"
+                        , "text"    : true
+                        , "audio"   : "3.19_kato-ptica-sam-svobodna"
+                        , "video"   : "58gZdQW52zw?si=Vbgesk3O7e0IPRrC"
+                        , "gallery" : ""
+                        , "slug"   : "kato-ptica-sam-svobodna"
+                }
+        , {
+                        "id" : 75
+                        , "album_id" : 8
+                        , "title"   : "Сърце ревниво"
+                        , "time"    : "2:49"
+                        , "text"    : true
+                        , "audio"   : "3.24_surce-revnivo"
+                        , "video"   : false
+                        , "gallery" : ""
+                        , "slug"   : "surce-revnivo"
+                }
+        , {
+                        "id" : 76
+                        , "album_id" : 8
+                        , "title"   : "Шепотът на сърцето"
+                        , "time"    : "2:58"
+                        , "text"    : true
+                        , "audio"   : "1.8_shepotut-na-surceto"
+                        , "video"   : "v01y-y9fOHE?si=1dQYFIo5J_NOg8Gk"
+                        , "gallery" : ""
+                        , "slug"   : "shepotut-na-surceto"
+                }
+        , {
+                        "id" : 77
+                        , "album_id" : 8
+                        , "title"   : "На кръстопът"
+                        , "time"    : "3:07"
+                        , "text"    : true
+                        , "audio"   : "7.64_na-krastopat"
+                        , "video"   : false
+                        , "gallery" : ""
+                        , "slug"   : "na-krastopat"
+                }
+        , {
+                        "id" : 78
+                        , "album_id" : 8
+                        , "title"   : "Няма вече"
+                        , "time"    : "2:47"
+                        , "text"    : true
+                        , "audio"   : "7.66_nyama-veche"
+                        , "video"   : ""
+                        , "gallery" : ""
+                        , "slug"   : "nyama-veche"
+                }
+        , {
+                        "id" : 79
+                        , "album_id" : 8
+                        , "title"   : "Не мога без тебе"
+                        , "time"    : "3:11"
+                        , "text"    : true
+                        , "audio"   : "7.61_ne-moga-bez-tebe"
+                        , "video"   : "R01ZPTnuL-M?si=VFy0ZTZYBiFXlJHp"
+                        , "gallery" : "i-can-not-witout-you"
+                        , "slug"   : "ne-moga-bez-tebe"
+                }
+        , {
+                        "id" : 80
+                        , "album_id" : 8
+                        , "title"   : "Влюбих се опасно"
+                        , "time"    : "3:47"
+                        , "text"    : true
+                        , "audio"   : "5.39_vlubih-se-opasno"
+                        , "video"   : "5Sv1jkBA8r0?si=W75KTu8PLv7XJX1J"
+                        , "gallery" : ""
+                        , "slug"   : "vlubih-se-opasno"
+                }
+        , {
+                        "id" : 81
+                        , "album_id" : 8
+                        , "title"   : "Плакала съм нощем дълго"
+                        , "time"    : "3:30"
+                        , "text"    : true
+                        , "audio"   : "1.2_plakala-sam-noshtem-dulgo"
+                        , "video"   : "EewwfiGeTTc?si=JFlDCudJQiKMU51e"
+                        , "gallery" : ""
+                        , "slug"   : "plakala-sam-noshtem-dulgo"
+                }
+        , {
+                        "id" : 82
+                        , "album_id" : 8
+                        , "title"   : "Няма как"
+                        , "time"    : "3:12"
+                        , "text"    : true
+                        , "audio"   : "5.41_nyama-kak"
+                        , "video"   : ""
+                        , "gallery" : ""
+                        , "slug"   : "nyama-kak"
+                }
+        , {
+                        "id" : 83
+                        , "album_id" : 8
+                        , "title"   : "Луда за любов"
+                        , "time"    : "3:33"
+                        , "text"    : true
+                        , "audio"   : "7.60_luda-za-lubov"
+                        , "video"   : "8qQ1i_n8us4?si=PN2XVAuC5n_IZZ5h"
+                        , "gallery" : "mad-for-love"
+                        , "slug"   : "luda-za-lubov"
+                }
+        , {
+                        "id" : 84
+                        , "album_id" : 8
+                        , "title"   : "Ден след ден"
+                        , "time"    : "3:36"
+                        , "text"    : true
+                        , "audio"   : "7.69_den-sled-den"
+                        , "video"   : ""
+                        , "gallery" : ""
+                        , "slug"   : "den-sled-den"
+                }
+        , {
+                        "id" : 85
+                        , "album_id" : 8
+                        , "title"   : "Време е"
+                        , "time"    : "3:15"
+                        , "text"    : true
+                        , "audio"   : "7.70_vreme-e"
+                        , "video"   : ""
+                        , "gallery" : ""
+                        , "slug"   : "vreme-e"
+                }
+        , {
+                        "id" : 86
+                        , "album_id" : 8
+                        , "title"   : "Аз съм в плен на тази мъка"
+                        , "time"    : "3:28"
+                        , "text"    : true
+                        , "audio"   : "5.42_az-sam-v-plen-na-tazi-maka"
+                        , "video"   : ""
+                        , "gallery" : ""
+                        , "slug"   : "az-sam-v-plen-na-tazi-maka"
+                }
+
+
+
+
+        , {
+                        "id" : 87
+                        , "album_id" : 9
+                        , "title"   : "Вик и зов"
+                        , "time"    : "4:18"
+                        , "text"    : true
+                        , "audio"   : "10.107_vik-i-zov"
+                        , "video"   : "Hrh8E1V3sFg?si=mfyNjJMvvIHQ94v3"
+                        , "gallery" : ""
+                        , "slug"   : "vik-i-zov"
+                }
+        , {
+                        "id" : 88
+                        , "album_id" : 9
+                        , "title"   : "И за теб ли е така"
+                        , "time"    : "3:56"
+                        , "text"    : true
+                        , "audio"   : "5.40_i-za-teb-li-e-taka"
+                        , "video"   : "QhGdNRy2qkM?si=x-GQtVyCCRf_6OmR"
+                        , "gallery" : ""
+                        , "slug"   : "i-za-teb-li-e-taka"
+                }
+        , {
+                        "id" : 89
+                        , "album_id" : 9
+                        , "title"   : "Ранена"
+                        , "time"    : "3:29"
+                        , "text"    : true
+                        , "audio"   : "3.26_ranena"
+                        , "video"   : "VM818xyTQIk?si=_JOLX4rr23KxxFXJ"
+                        , "gallery" : ""
+                        , "slug"   : "ranena"
+                }
+        , {
+                        "id" : 90
+                        , "album_id" : 9
+                        , "title"   : "Какво е обич"
+                        , "time"    : "2:55"
+                        , "text"    : true
+                        , "audio"   : "7.63_kakvo-e-obich"
+                        , "video"   : "gHnCCgZ1Qj8?si=kWkq2ukvL_Qp9QJb"
+                        , "gallery" : ""
+                        , "slug"   : "kakvo-e-obich"
+                }
+        , {
+                        "id" : 91
+                        , "album_id" : 9
+                        , "title"   : "Не се страхувам"
+                        , "time"    : "4:00"
+                        , "text"    : true
+                        , "audio"   : "3.23_ne-se-strahuvam"
+                        , "video"   : "nODjj5xP3Xs?si=05YicHpSx3lUHyFA"
+                        , "gallery" : ""
+                        , "slug"   : "ne-se-strahuvam"
+                }
+        , {
+                        "id" : 92
+                        , "album_id" : 9
+                        , "title"   : "Кукла Барби"
+                        , "time"    : "3:18"
+                        , "text"    : true
+                        , "audio"   : "3.27_kukla-barbi"
+                        , "video"   : "kCExstGLTcw?si=IMqtae7PEIXhHyOC"
+                        , "gallery" : ""
+                        , "slug"   : "kukla-barbi"
+                }
+        , {
+                        "id" : 93
+                        , "album_id" : 9
+                        , "title"   : "Авантюра"
+                        , "time"    : "3:56"
+                        , "text"    : true
+                        , "audio"   : "3.25_avantura"
+                        , "video"   : ""
+                        , "gallery" : ""
+                        , "slug"   : "avantura"
+                }
+        , {
+                        "id" : 94
+                        , "album_id" : 9
+                        , "title"   : "Балът свърши"
+                        , "time"    : "4:30"
+                        , "text"    : true
+                        , "audio"   : "3.22_balat-svurshi"
+                        , "video"   : ""
+                        , "gallery" : ""
+                        , "slug"   : "balat-svurshi"
+                }
+        , {
+                        "id" : 95
+                        , "album_id" : 9
+                        , "title"   : "Огледало"
+                        , "time"    : "3:53"
+                        , "text"    : true
+                        , "audio"   : "3.28_ogledalo"
+                        , "video"   : ""
+                        , "gallery" : ""
+                        , "slug"   : "ogledalo"
+                }
+        , {
+                        "id" : 96
+                        , "album_id" : 9
+                        , "title"   : "Трябва да реша"
+                        , "time"    : "3:53"
+                        , "text"    : true
+                        , "audio"   : "5.48_tryabva-da-resha"
+                        , "video"   : "-MIMyKn3dEg?si=fDhvf4E4vo6Fli9y"
+                        , "gallery" : ""
+                        , "slug"   : "tryabva-da-resha"
+                }
+        , {
+                        "id" : 97
+                        , "album_id" : 9
+                        , "title"   : "Раздяла"
+                        , "time"    : "3:42"
+                        , "text"    : true
+                        , "audio"   : "5.46_razdyala"
+                        , "video"   : "5uSNMjmFzA8?si=poiyO3RCgQ0SvtJW"
+                        , "gallery" : ""
+                        , "slug"   : "razdyala"
+                }
+        , {
+                        "id" : 98
+                        , "album_id" : 9
+                        , "title"   : "Прости ми, мамо"
+                        , "time"    : "3:30"
+                        , "text"    : true
+                        , "audio"   : "7.68_prosti-mi-mamo"
+                        , "video"   : "HpxrAbbXxLo?si=VLZ3qIBrjmgM1XfJ"
+                        , "gallery" : ""
+                        , "slug"   : "prosti-mi-mamo"
+                }
+        , {
+                        "id" : 99
+                        , "album_id" : 9
+                        , "title"   : "Да се разделим"
+                        , "time"    : "3:08"
+                        , "text"    : true
+                        , "audio"   : "7.62_da-se-razdelim"
+                        , "video"   : "b8YkU3hYNmQ?si=s3iXWcYDmBcBQnfb"
+                        , "gallery" : ""
+                        , "slug"   : "da-se-razdelim"
+                }
+        , {
+                        "id" : 100
+                        , "album_id" : 9
+                        , "title"   : "Лудо младо"
+                        , "time"    : "3:33"
+                        , "text"    : true
+                        , "audio"   : "5.49_ludo-mlado"
+                        , "video"   : "uAaVQ1J7984?si=hPbovTC8S_ACBYUi"
+                        , "gallery" : ""
+                        , "slug"   : "ludo-mlado"
+                }
+
+
+
+
+        , {
+                        "id" : 101
+                        , "album_id" : 10
+                        , "title"   : "Чувстваш ли любов към мене?"
+                        , "time"    : "3:54"
+                        , "text"    : true
+                        , "audio"   : "D"
+                        , "video"   : "gKG-FyiOS5M?si=6J4vrMIxLw1K8j9p"
+                        , "gallery" : ""
+                        , "slug"   : "chuvstvash-li-lubov-kam-mene"
+                }
+        , {
+                        "id" : 102
+                        , "album_id" : 10
+                        , "title"   : "Сърцето ми тиктака"
+                        , "time"    : "4:44"
+                        , "text"    : true
+                        , "audio"   : "D"
+                        , "video"   : "AIz7mtKEWr0?si=LZVK0tFaATtHIXeg"
+                        , "gallery" : ""
+                        , "slug"   : "surceto-mi-tiktaka"
+                }
+        , {
+                        "id" : 103
+                        , "album_id" : 10
+                        , "title"   : "Искай ме"
+                        , "time"    : "3:44"
+                        , "text"    : true
+                        , "audio"   : "D"
+                        , "video"   : "FHYL-EMgQmY?si=2vS95rxJIegBn0O4"
+                        , "gallery" : ""
+                        , "slug"   : "iskay-me"
+                }
+        , {
+                        "id" : 104
+                        , "album_id" : 10
+                        , "title"   : "По-добре да съм сама"
+                        , "time"    : "3:15"
+                        , "text"    : true
+                        , "audio"   : "D"
+                        , "video"   : false
+                        , "gallery" : ""
+                        , "slug"   : "po-dobre-da-sam-sama"
+                }
+        , {
+                        "id" : 105
+                        , "album_id" : 10
+                        , "title"   : "Страст"
+                        , "time"    : "4:31"
+                        , "text"    : true
+                        , "audio"   : "D"
+                        , "video"   : false
+                        , "gallery" : "passion"
+                        , "slug"   : "strast"
+                }
+        , {
+                        "id" : 106
+                        , "album_id" : 10
+                        , "title"   : "Ревност"
+                        , "time"    : "3:45"
+                        , "text"    : true
+                        , "audio"   : "D"
+                        , "video"   : "lkcvoJe9YHs?si=-DmJYnmpU3NLGVXC"
+                        , "gallery" : ""
+                        , "slug"   : "revnost"
+                }
+        , {
+                        "id" : 107
+                        , "album_id" : 10
+                        , "title"   : "Вик и зов"
+                        , "time"    : "4:18"
+                        , "text"    : true
+                        , "audio"   : "D"
+                        , "video"   : "Hrh8E1V3sFg?si=GGQlT1KapME6kObB"
+                        , "gallery" : ""
+                        , "slug"   : "vik-i-zov"
+                }
+        , {
+                        "id" : 108
+                        , "album_id" : 10
+                        , "title"   : "Ще можеш ли?"
+                        , "time"    : "3:51"
+                        , "text"    : true
+                        , "audio"   : "D"
+                        , "video"   : "NXTWT3aXLdc?si=3rsxb2fGm_r4dHn9"
+                        , "gallery" : "passion"
+                        , "slug"   : "shte-moesh-li"
+                }
+        , {
+                        "id" : 109
+                        , "album_id" : 10
+                        , "title"   : "Да започнем отначало"
+                        , "time"    : "4:05"
+                        , "text"    : true
+                        , "audio"   : "D"
+                        , "video"   : "H7fkMN8Ywkg?si=1BCzx-4DqG4XYKgP"
+                        , "gallery" : ""
+                        , "slug"   : "da-zapochmem-otnachalo"
+                }
+        , {
+                        "id" : 110
+                        , "album_id" : 10
+                        , "title"   : "Искам да те няма"
+                        , "time"    : "3:15"
+                        , "text"    : true
+                        , "audio"   : "D"
+                        , "video"   : "XWLu5H53SbQ?si=8qld4PbaOy6knL5q"
+                        , "gallery" : "i-want-you-gone-video"
+                        , "slug"   : "iskam-da-te-nyama"
+                }
+        
+
+
+
+        , {
+                        "id" : 111
+                        , "album_id" : 11
+                        , "title"   : "Съмнявай се в мен"
+                        , "time"    : "3:58"
+                        , "text"    : true
+                        , "audio"   : "D"
+                        , "video"   : "D6RlyF2QSyY?si=Ld2qd7r_JMLkE7aC"
+                        , "gallery" : ""
+                        , "slug"   : "sumnyavai-se-v-men"
+                }
+        , {
+                        "id" : 112
+                        , "album_id" : 11
+                        , "title"   : "Виж ме!"
+                        , "time"    : "3:43"
+                        , "text"    : true
+                        , "audio"   : "D"
+                        , "video"   : "MzkTFs4k9cI?si=FbuvNIFm721spdbZ"
+                        , "gallery" : ""
+                        , "slug"   : "vizh-me"
+                }
+        , {
+                        "id" : 113
+                        , "album_id" : 11
+                        , "title"   : "Горчиво и сладко"
+                        , "time"    : "4:09"
+                        , "text"    : true
+                        , "audio"   : "D"
+                        , "video"   : "XIe1NmQSzqk?si=_6fbhZJk9HC4I7-b"
+                        , "gallery" : "bitter-and-sweet"
+                        , "slug"   : "gorchivo-i-sladko"
+                }
+        , {
+                        "id" : 114
+                        , "album_id" : 11
+                        , "title"   : "Скитници"
+                        , "time"    : "4:27"
+                        , "text"    : true
+                        , "audio"   : "D"
+                        , "video"   : "4zVum1yx8uM?si=g-F6J6_l8dRwyt-A"
+                        , "gallery" : ""
+                        , "slug"   : "skitnici"
+                }
+        , {
+                        "id" : 115
+                        , "album_id" : 11
+                        , "title"   : "Йерусалим"
+                        , "time"    : "3:57"
+                        , "text"    : true
+                        , "audio"   : "D"
+                        , "video"   : "fkQB2p4yQvk?si=lbsQqjgy7zcLUSuj"
+                        , "gallery" : "jerusalem-video"
+                        , "slug"   : "yerusalim"
+                }
+        , {
+                        "id" : 116
+                        , "album_id" : 11
+                        , "title"   : "Каменно сърце"
+                        , "time"    : "3:48"
+                        , "text"    : true
+                        , "audio"   : "D"
+                        , "video"   : "sW0Jv3PJfgE?si=5izd1-jXs6Wt0DjF"
+                        , "gallery" : ""
+                        , "slug"    : "kamenno-surce"
+                }
+        , {
+                        "id" : 117
+                        , "album_id" : 11
+                        , "title"   : "Жалко, че не може"
+                        , "time"    : "3:54"
+                        , "text"    : true
+                        , "audio"   : "D"
+                        , "video"   : ""
+                        , "gallery" : "sad-can-not-be"
+                        , "slug"    : "jalco-che-ne-mozhe"
+                }
+        , {
+                        "id" : 118
+                        , "album_id" : 11
+                        , "title"   : "Неземна обич"
+                        , "time"    : "3:50"
+                        , "text"    : true
+                        , "audio"   : "D"
+                        , "video"   : "yO1xzblOJas?si=P3KaTqgsBiBnmbUJ"
+                        , "gallery" : ""
+                        , "slug"    : "nezemna-obich"
+                }
+        , {
+                        "id" : 119
+                        , "album_id" : 11
+                        , "title"   : "Моя Българио"
+                        , "time"    : "3:36"
+                        , "text"    : true
+                        , "audio"   : "D"
+                        , "video"   : "7xfvA7M98Tw?si=Ff7fnDRcIaRSUyg0"
+                        , "gallery" : "pirin-folk-2006"
+                        , "slug"    : "moya-balgario"
+                }
+        , {
+                        "id" : 120
+                        , "album_id" : 11
+                        , "title"   : "Горчиво и сладко(ремикс)"
+                        , "time"    : "4:50"
+                        , "text"    : true
+                        , "audio"   : "D"
+                        , "video"   : false
+                        , "gallery" : ""
+                        , "slug"    : "gorchivo-i-sladko-remix"
+                }
+        , {
+                        "id" : 121
+                        , "album_id" : 11
+                        , "title"   : "Между две жени"
+                        , "time"    : "4:00"
+                        , "text"    : true
+                        , "audio"   : "D"
+                        , "video"   : false
+                        , "gallery" : ""
+                        , "slug"    : "mezhdou-dve-zheni"
+                }
+        , {
+                        "id" : 122
+                        , "album_id" : 11
+                        , "title"   : "Джурджев дан"
+                        , "time"    : "3:19"
+                        , "text"    : true
+                        , "audio"   : "D"
+                        , "video"   : "b2qnYwFBNQU?si=oyFJ609XfimUrj5D"
+                        , "gallery" : ""
+                        , "slug"    : "srb-djurdjev-dan"
+                }
+
+
+
+
+
+        , {
+                        "id" : 123
+                        , "album_id" : 12
+                        , "title"   : "Opa, opa..."
+                        , "time"    : "2:57"
+                        , "text"    : false
+                        , "audio"   : "D"
+                        , "video"   : false
+                        , "gallery" : ""
+                        , "slug"    : "srb-opa-opa"
+                }
+        , {
+                        "id" : 124
+                        , "album_id" : 12
+                        , "title"   : "Bez nadajda"
+                        , "time"    : "3:25"
+                        , "text"    : false
+                        , "audio"   : "D"
+                        , "video"   : ""
+                        , "gallery" : ""
+                        , "slug"    : "srb-bez-nadajda"
+                }
+        , {
+                        "id" : 125
+                        , "album_id" : 12
+                        , "title"   : "Ne, to ni sam ja"
+                        , "time"    : "4:10"
+                        , "text"    : true
+                        , "audio"   : "D"
+                        , "video"   : "T9MMIUmU6n0?si=K8T2xvup8ttmaOZg"
+                        , "gallery" : ""
+                        , "slug"    : "srb-ne-to-ni-sam-ja"
+                }
+        , {
+                        "id" : 126
+                        , "album_id" : 12
+                        , "title"   : "Nasamo"
+                        , "time"    : "3:22"
+                        , "text"    : true
+                        , "audio"   : "D"
+                        , "video"   : "UQDuhCSc79Q?si=ud4cpw2i0YVa-shP"
+                        , "gallery" : ""
+                        , "slug"    : "srb-nasamo"
+                }
+        , {
+                        "id" : 127
+                        , "album_id" : 12
+                        , "title"   : "Lyubi fatalno"
+                        , "time"    : "3:24"
+                        , "text"    : false
+                        , "audio"   : "D"
+                        , "video"   : ""
+                        , "gallery" : ""
+                        , "slug"    : "srb-lyubi-fatalno"
+                }
+        , {
+                        "id" : 128
+                        , "album_id" : 12
+                        , "title"   : "Nostalgija"
+                        , "time"    : "4:32"
+                        , "text"    : false
+                        , "audio"   : "D"
+                        , "video"   : ""
+                        , "gallery" : ""
+                        , "slug"    : "srb-nostalgija"
+                }
+        , {
+                        "id" : 129
+                        , "album_id" : 12
+                        , "title"   : "Granica"
+                        , "time"    : "4:03"
+                        , "text"    : false
+                        , "audio"   : "D"
+                        , "video"   : false
+                        , "gallery" : ""
+                        , "slug"    : "srb-granica"
+                }
+        , {
+                        "id" : 130
+                        , "album_id" : 12
+                        , "title"   : "Veran covek"
+                        , "time"    : "4:00"
+                        , "text"    : false
+                        , "audio"   : "D"
+                        , "video"   : false
+                        , "gallery" : ""
+                        , "slug"    : "srb-veran-covek"
+                }
+        , {
+                        "id" : 131
+                        , "album_id" : 12
+                        , "title"   : "Zavedi i bezi"
+                        , "time"    : "3:11"
+                        , "text"    : false
+                        , "audio"   : "D"
+                        , "video"   : "oSTCecl0Ouk?si=6guQE3QP9CKxqQxK"
+                        , "gallery" : ""
+                        , "slug"    : "srb-zavedi-i-bezi"
+                }
+        , {
+                        "id" : 132
+                        , "album_id" : 12
+                        , "title"   : "Durdevdan"
+                        , "time"    : "3:19"
+                        , "text"    : true
+                        , "audio"   : "11.122_srb-djurdjev-dan"
+                        , "video"   : ""
+                        , "gallery" : ""
+                        , "slug"    : "srb-djurdjev-dan"
+                }
+        , {
+                        "id" : 133
+                        , "album_id" : 12
+                        , "title"   : "Zavedi i bezi(bulgarian version)"
+                        , "time"    : "3:11"
+                        , "text"    : false
+                        , "audio"   : "D"
+                        , "video"   : ""
+                        , "gallery"  : ""
+                        , "slug"    : "srb-zavedi-i-bezi-bulgarian-version"
+                }
+
+
+
+
+
+        , {
+                        "id" : 134
+                        , "album_id" : 13
+                        , "title"   : "Бях на ръба"
+                        , "time"    : "3:45"
+                        , "text"    : true
+                        , "audio"   : false
+                        , "video"   : "YPU2KVtmdwE?si=mPhGnTV-UB21Mj8W"
+                        , "gallery"  : "on-the-edge-video"
+                        , "slug"    : "byah-na-raba"
+                }
+        , {
+                        "id" : 135
+                        , "album_id" : 13
+                        , "title"   : "И нея купил си с пари"
+                        , "time"    : "3:19"
+                        , "text"    : true
+                        , "audio"   : false
+                        , "video"   : "B6m2LRkWt6o?si=rXDJaySJJD21YSZh"
+                        , "gallery"  : "you-bought-her-with-money"
+                        , "slug"    : "i-neya-kupil-si-s-pari"
+                }
+        , {
+                        "id" : 136
+                        , "album_id" : 13
+                        , "title"   : "Мъжете също плачат"
+                        , "time"    : "3:28"
+                        , "text"    : true
+                        , "audio"   : false
+                        , "video"   : ""
+                        , "gallery"  : ""
+                        , "slug"    : "mazhete-sashto-plachat"
+                }
+        , {
+                        "id" : 137
+                        , "album_id" : 13
+                        , "title"   : "До зори"
+                        , "time"    : "3:21"
+                        , "text"    : true
+                        , "audio"   : false
+                        , "video"   : "H4O0N1ZPJq0?si=6M9AqAZmvHAxW66z"
+                        , "gallery"  : "until-sunrise"
+                        , "slug"    : "do-zori"
+                }
+        , {
+                        "id" : 138
+                        , "album_id" : 13
+                        , "title"   : "Нека няма край"
+                        , "time"    : "3:32"
+                        , "text"    : true
+                        , "audio"   : false
+                        , "video"   : ""
+                        , "gallery"  : ""
+                        , "slug"    : "neka-nyama-krai"
+                }
+        , {
+                        "id" : 139
+                        , "album_id" : 13
+                        , "title"   : "Чуй сърце"
+                        , "time"    : "4:12"
+                        , "text"    : false
+                        , "audio"   : false
+                        , "video"   : ""
+                        , "gallery"  : ""
+                        , "slug"    : "chuy-surce"
+                }
+        , {
+                        "id" : 140
+                        , "album_id" : 13
+                        , "title"   : "Фатална любов"
+                        , "time"    : "3:26"
+                        , "text"    : false
+                        , "audio"   : false
+                        , "video"   : ""
+                        , "gallery"  : ""
+                        , "slug"    : "fatalna-lyubov"
+                }
+        , {
+                        "id" : 141
+                        , "album_id" : 13
+                        , "title"   : "Магия"
+                        , "time"    : "3:26"
+                        , "text"    : true
+                        , "audio"   : false
+                        , "video"   : ""
+                        , "gallery"  : "magic"
+                        , "slug"    : "magiya"
+                }
+        , {
+                        "id" : 142
+                        , "album_id" : 13
+                        , "title"   : "Към теб летя"
+                        , "time"    : "3:51"
+                        , "text"    : true
+                        , "audio"   : false
+                        , "video"   : ""
+                        , "gallery"  : ""
+                        , "slug"    : "kam-teb-letya"
+                }
+        , {
+                        "id" : 143
+                        , "album_id" : 13
+                        , "title"   : "Рицар ти бъди"
+                        , "time"    : "3:07"
+                        , "text"    : false
+                        , "audio"   : false
+                        , "video"   : ""
+                        , "gallery"  : "be-a-knight"
+                        , "slug"    : "ritsar-ti-badi"
+                }
+]      

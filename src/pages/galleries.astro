@@ -1,0 +1,17 @@
+---
+import General from "../layouts/General.astro"
+import galleryList from './gallery/_gallery-list.json'
+
+const list = [...galleryList].reverse ();
+// console.log ( list )
+
+---
+<General>
+<div class="wrapper galleries">
+    <h2>Галерии</h2>
+    { list.map ( item => (
+                        <h3>{item.title}</h3>
+                        <p>{item.description} <a href={`/gallery/${item.slug}`}>Виж снимките</a></p>
+                ))}
+</div>
+</General>

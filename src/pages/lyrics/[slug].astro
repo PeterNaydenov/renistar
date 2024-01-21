@@ -1,0 +1,38 @@
+---
+import General     from '../../layouts/General.astro'
+import Path from 'path'
+import songList from '../album/_song-list.json'
+
+
+
+const 
+      lyricList = await Astro.glob ( '../../lyrics-text/*.md')
+    , {slug} = Astro.params
+    , data = await lyricList.filter ( item => {
+                    const x = Path.parse ( item.file).name;
+                    return x === slug
+                }) [0]
+    , { title, album_id } = Astro.props
+    ;
+
+
+
+export async function getStaticPaths () {
+    return songList.map ( ({slug,title, album_id}) => {
+                                return {
+                                              params: { slug:`${slug}` }
+                                            , props: { 
+                                                        title:`${title}`
+                                                        , album_id:`${album_id}` 
+                                                    }
+                                        }   
+                            })
+} // getStaticPaths func.
+---
+<General>
+<div class="wrapper song">
+    <div class="crumbs"><a href="javascript:history.back()">назад</a></div> 
+    <h2 class="crumbsSpace">{title}</h2>
+    { data && data.Content && <data.Content />}
+</div><!-- wrapper song -->
+</General>

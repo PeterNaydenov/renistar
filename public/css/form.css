@@ -1,0 +1,67 @@
+form{  		
+		display:inline; 
+		float:left; 
+		margin-left: 100px;	
+		padding: 10px;	
+		}		
+		
+label { 
+		float:left;
+		width: 150px;
+		margin:0 10px 10px 0;
+		text-align: right;
+		clear:left;
+		}
+		
+ input{ 		
+		float:left;		
+		width: 240px;
+		clear: right;
+		}
+		
+ input.btn{ width: auto;}
+ 
+ 
+ /*--------------------------------------------  LOGIN  */
+ 
+ #txt.log form{ margin: 2em 0 2em 30px;}
+ #txt.log p {margin-left: 110px;}
+ 
+  /*--------------------------------------------  PROFILE  */
+   
+   #txt.profile p{ clear:left;}
+   #txt.profile form{margin:2em 0;}
+   #txt.profile form p{margin:1em 0;}
+   #txt.profile label{ width: 110px;}
+   .reg h3{margin-bottom: 1em;}
+   
+   .comment_title{
+				display:table;				
+				width: 100%;
+				background-color: #ecdb93;
+				margin-bottom: 2px;
+				padding: 3px;
+				clear:both;						
+				}	
+	
+	.comment_title dt{
+					float:left;
+					width: 110px;
+					}
+
+	.comment_title img{
+					float:left;
+					margin-right: 6px;
+					}
+					
+	.comment_title dd{
+					display:inline;
+					float:left;
+					}
+					
+   #txt.profile .comment_title label{width:auto;}
+  /*--------------------------------------------  NEW TOPIC  */   
+  
+	#txt.newTopic form{ margin:2em 0;}
+	#txt.newTopic input{ margin-bottom: 10px;}
+	#txt.newTopic textarea{ width: 500px; margin-bottom: 10px; }

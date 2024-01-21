@@ -1,0 +1,142 @@
+---
+import General from "../../layouts/General.astro"
+import discographyList from './_discography-list.json'
+import songList from './_song-list.json'
+
+export async function getStaticPaths () {
+    return discographyList.map (({album_id,title,producer,year, songs}) => {
+                    return {
+                                params : { slug:album_id }
+                              , props : { title, producer, year, album_id, songs }
+                          }
+          })
+}
+
+const 
+      { album_id, title, producer, year, songs } = Astro.props
+    , ls = songs.map ( (id,i) => ({...songList[id], i:i+1}) )
+    ;
+---
+<General>
+<div class="wrapper albumInfo" itemscope itemtype="http://schema.org/MusicAlbum">
+    <p class="crumbs"><a href="/discography">назад в дискография</a></p>
+		<div class="nfo">
+                <div class="album">
+                            <img src={`/img/album_cover/${album_id}.jpg`} alt={title} itemprop="image" />
+                            <h2 itemprop="name">{title}</h2>
+                            <p>година: <span itemprop="copyrightYear">{year}</span></p>
+                            <p>издател: <span itemprop="publisher">{producer}</span></p>
+                    </div>
+                <div class="player">
+                            <h3>Преслушай албума</h3>
+                            <div id="waveform">
+                                <p id="play-title" data-list={JSON.stringify(ls)}>Not selected</p><!-- song title loaded from the script -->
+                            </div>
+                            <div class="player-controls">
+                                <button id="playBtn" class="btn" data-action="play" title="Слушай/Спри">&#x25B6;</button>
+                                <button id="changeBtn" class="btn" data-action="next" title="Смени песента">Смени песента</button>
+                                
+                                </div>
+                    </div>
+                
+            </div>
+		<h3>Песни в албума</h3>
+			
+            {
+                ls.map ( song => {
+                        return (
+                            <dl itemprop="track" itemscope itemtype="http://schema.org/MusicRecording" class="song">			
+                            <dt><span>{song.i}</span>. <span itemprop="name">{song.title}</span></dt> <dd><meta itemprop="duration" content="PT3M45S" />{song.time}</dd> 
+                                    <dd>{ song.text ? <a href={`/lyrics/${song.slug}`}>текст</a> : '\u00A0' }</dd> 
+                                    <dd>{ song.audio ? <span data-action={song.i}>слушай</span> : '\u00A0'}</dd><!--audio --> 
+                                    <dd>{ song.video ? <a href=`https://youtu.be/${song.video}` target="_blank">видео</a> : '\u00A0'}</dd><!--video -->
+                                    <dd>{ song.gallery ? <a href=`/gallery/${song.gallery}`>снимки</a> : '\u00A0' }</dd><!--gallery -->
+                            </dl>
+                        )
+                    })
+            }
+			
+    
+	<p class="crumbs crumbsSpace"><a href="../discography">назад в дискография</a></p>
+</div>
+</General>
+<script>
+    import WaveSurfer from 'wavesurfer.js';
+    const 
+            currentSong = document.querySelector ( '#play-title' )
+          , playBtn     = document.querySelector ( '#playBtn' )
+          , albumInfo   = document.querySelector ( '.albumInfo' )
+          , playerBlock = document.querySelector ( '.player' )
+          , LABEL_PLAY  = '&#x25B6'          // Play icon
+          , LABEL_PAUSE = '&#10074;&#10074;' // Pause icon
+          , ls = JSON.parse ( currentSong.dataset.list )
+          , hasAudio = ls.some ( song => song.audio ) // Check in any song has audio
+          , lengthSongList = ls.length
+        ;
+    let 
+         selection = ls[0]
+       , playing = false
+       ;
+
+    albumInfo.addEventListener ( 'click', e => {
+            const 
+                    target = e.target
+                  , action = target.dataset.action
+                ;
+            if ( !action ) return
+            if ( action === 'play' ) return playPause ()
+            if ( action === 'next' ) return nextSong ()
+            playPause ( 1 ) // Play with forced play
+            changeSelection ( parseInt(action) - 1 )
+        }) // albumInfo click event
+
+    function changeSelection ( id ) {
+            if ( !hasAudio ) return
+            selection = ls[id];
+            let loaded; // Promise for the loaded song
+            if ( playing )  wavesurfer.pause ()
+            if ( !selection.audio ) {
+                    nextSong ()
+                    return        
+                }
+            if ( selection.audio !== 'D' )   loaded = wavesurfer.load ( `/mp3/${selection.audio}.mp3` )
+            else                             loaded = wavesurfer.load ( `/mp3/${selection.album_id}.${selection.id}_${selection.slug}.mp3` )
+            currentSong.innerHTML = selection.title
+            wavesurfer.setTime ( 0 )
+            loaded.then ( () => {   
+                    playerBlock.classList.add ( 'show' )
+                    if ( playing )  wavesurfer.play ()   
+                })
+        } // changeSelection func.
+
+    function nextSong () {
+            const id = selection.i;
+            if ( id < lengthSongList )  changeSelection ( id )
+            else                        changeSelection ( 0 )
+        } // nextSong func.
+
+    function playPause ( force ) {
+            if ( force )   playing = false
+            if ( playing ) {
+                    wavesurfer.pause ()
+                    playing = false
+                    playBtn.innerHTML = LABEL_PLAY
+                }
+            else {
+                    wavesurfer.play()
+                    playing = true
+                    playBtn.innerHTML = LABEL_PAUSE
+                }
+        } // playPause func.
+    
+    currentSong.innerHTML = selection.title
+    const wavesurfer = WaveSurfer.create({
+        container: '#waveform',
+        waveColor: '#d8e3c6',
+        progressColor: '#8a9b63',
+        cursorColor: '#8a9b63',
+        autoplay: false
+    });    
+    wavesurfer.on ( 'seeking', () => {    if ( playing )  wavesurfer.play ()   })
+    changeSelection ( 0 ) // load the first song
+</script>
