@@ -1,0 +1,53 @@
+
+	h3.more{ 
+			margin-bottom:0.4em;
+			padding-left: 6px;
+			clear:left;
+			}
+
+	ul.more{
+			list-style-type: none;			
+			clear:both;
+			}
+		
+	.more li{
+			width: 280px;
+			margin-bottom: 1px;
+			padding: 4px 4px 4px 6px;
+			background-color: #d0ddb9;
+			}
+			
+	.more li{
+			font-family: Verdana, Helvetica, sans-serif;
+			font-weight: bold;
+			font-size: 0.8em;
+			}
+			
+			
+	dl{ 		
+		display:inline;
+		float:left;
+		width: 280px;
+		margin-bottom: 1px;	
+			font-family: Verdana, Helvetica, sans-serif;
+			font-weight: bold;
+			font-size: 0.8em;	
+		background-color:#d0ddb9;
+		clear:both;
+		}
+
+	dt,dd{ padding: 6px 0;}
+/* ==================================    OUTLOOK of ROWS(SIZE) */
+	dt{ 
+		display: inline;
+		float:left;
+		width: 60px;
+		margin: 0 10px 0 10px;
+		text-align: right;
+		}	
+
+	dd{ 
+		margin-right: 10px;
+		float:left;
+		}
+	br{ clear:left;}	

@@ -1,0 +1,196 @@
+
+	
+	*{ padding:0; margin:0;}
+	
+	html,body{
+			
+			margin-bottom: -88px;
+			font-family: Arial, Helvetica, sans-serif;
+			background-color: #fff2b5;
+			background-image: url(../img/bkg_page.gif);
+			background-repeat: repeat-x;
+			text-align: center;
+			}
+	
+
+	
+	html,body{height: 100%;}
+	
+	#sitewrapper{
+			position: relative;
+			width:100%;
+			min-height:100%;
+			height:auto;
+			}
+			
+	* html #sitewrapper{height:100%;}		
+			
+	#wrapper{												
+			width: 720px;			
+			margin: 0 auto;
+			padding-bottom: 90px;
+			background-image:url(../img/bkg_top.gif);
+			background-repeat: no-repeat;
+			background-position: 43px top;
+			clear:both;			
+		}
+
+	div#wrapper.empty{background:none;}	
+		
+	#head{
+			display:inline;
+			float:right;
+			width: 341px;
+			height: 261px;
+			margin-right: 90px;
+			background-image:url(../img/colaj_1.jpg);
+			overflow: hidden;
+			clear: right;
+			}
+	div#head.empty{ background-image:none; height:0; padding:0; margin:0;}
+	#head h1{visibility: hidden;}
+	
+	.br{		
+		height:25px;		
+		font-size:0;
+		clear:both;
+		}
+	
+	.brb{		
+		height:1px;		
+		font-size:0;
+		clear:both;
+		}	
+		
+	#wrapper a {color:#cc6600;}	
+	
+/*  =================================================================    NAV   */			
+	#nav{
+		 display:inline;
+		 float:right;
+		 width: 185px;
+		 height: 261px;
+		 font-family:Verdana, Helvetica, sans-serif;
+		 font-size: 10px;
+		 text-align: right;
+		 clear:left;
+		 }
+		 
+	#nav ul{
+			display:inline;
+			float:right;
+			list-style-type: none;
+			margin: 120px 20px 0 0;
+			}
+			
+	#nav li{
+			 display:inline;
+			 float:right;
+			 width: 150px;			
+			 margin-bottom:3px; 
+			 }
+			 
+	#nav a{
+			display:block;
+			width: 120px;
+			height: 16px;
+			padding-right: 20px;
+			color: #c93e2d;
+			text-decoration: none;
+			font-weight: bold;
+			background-image: url(../img/nav.gif);
+			background-repeat: no-repeat;
+			background-position: right -16px;			
+			}
+
+	#nav a:hover{
+			background-position: right 2px;
+			}
+
+
+/*================================================================================= RED LINE  */
+	#clearfooter{ clear:both;}
+	
+	div#close{			
+			position:absolute;			
+			left:0;
+			width: 100%;			
+			font-family: Verdana, Helvetica, sans-serif;
+			font-size: 10px;
+			font-weight:bold;
+			background-color: #c93e2d;
+			color: #fbb;
+			}
+		
+  * html div#close{display:inline; width:100%;}
+/*-------------------------------------------------   Nav down */
+	#close ul{				
+				width: 650px;				
+				list-style-type:none;
+				margin: 0 auto;					
+				}
+
+	#close li{				
+				display:inline;
+				float:left;				
+				margin: 10px 20px 5px 0;
+				padding: 0 5px 0 5px;
+				}
+
+	#close a{ color:white;}
+				
+	#close ul a{ 
+				float:left;
+				padding: 0 5px 0 5px;
+				color: 	#fbb;	
+				text-decoration: none;				
+				}
+	#close ul a:hover{color: white;}			
+
+	#close hr{
+				display:block;
+				width: 680px;
+				height:1px;	
+				margin:0 auto;			
+				color:#d76e62;
+				background-color:#d76e62;
+				border: none;
+				clear:both;
+				}
+/* -------------------------------------------   copyright  */	
+	#copyright{ 
+				display:table;
+				width: 680px;
+				height: 60px;				
+				margin: 0 auto;				
+				text-align:left;
+				}
+
+	#copyright p{
+			display:inline;
+			float:left;
+			width: 350px;
+			padding: 10px 0 0 0;
+			}
+			
+	#copyright h3{ 
+			float: right;
+			width: 120px;			
+			font-size: 0px;			
+			text-align: right;
+			clear:right;
+			}
+
+	#copyright h3 a{
+				display:block;
+				width: 120px;
+				height: 34px;				
+				background-image:url(../img/asterixworks.gif);
+				background-repeat: no-repeat;
+				background-position: bottom right;
+				text-decoration: none;
+				overflow: hidden;
+				}
+
+	#copyright h3 span{visibility: hidden;}
+				

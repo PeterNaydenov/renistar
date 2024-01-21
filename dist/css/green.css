@@ -1,0 +1,450 @@
+*{margin:0; padding:0;}
+html,body{height:100%;}
+ body{
+	font-family: verdana, arial, sans-serif;
+	font-size: 0.8em;
+	background: #d0ddb9 url('../img/green/bkg_head.gif') repeat-x;}
+
+ a{ color: #697275;}
+ img{border: none;}
+/*-------------------------------------------------------------------- HEAD */
+.wrapper{
+	width: 980px;
+	margin: 0 auto;}
+	
+.head{
+	height: 288px;
+	color: #697275;
+	background: url('../img/green/reni_2012.jpg') no-repeat center top;}
+
+.white{
+	padding: 2em 0 46px 0;
+	background: #fcfdfb;	
+	overflow: hidden;}
+
+h1{
+	float:left;
+	margin-bottom: 26px;}
+
+h1 a{
+	float:left;
+	width: 220px;
+	height: 72px;	
+	background: url('../img/green/logo.gif'), no-repeat;}
+	
+h1 span{ display: none;}
+
+.nav{
+	width: 210px;
+	list-style-type: none;
+	clear:left;}
+	
+.nav li{
+	margin-bottom: 13px;
+	text-align: right;}
+
+.nav a{
+	font: bold  13px 'georgia';	
+	text-decoration: none;}
+.nav a:hover{text-decoration: underline;}
+/*-------------------------------------------------------------------- FAN ZONE */
+.fanZone{
+	float:right;
+	width: 250px;
+	height: 268px;
+	padding: 20px 0 0 10px;
+	font-family: georgia, TimesNewRoman,serif;
+	text-align: center;	
+	background: url('../img/green/bkg_fanZone.gif') no-repeat left top;}
+.fanZone p{text-indent: 0;}
+.register{
+	display:block;
+	width: 241px;
+	height: 35px;
+	padding-top:6px;
+	margin-bottom: 40px;
+	font-size: 22px ;
+	text-decoration: none;
+	text-align: center;
+	background: url('../img/green/register_green.gif') no-repeat left top;
+	outline:none;}
+
+.fanZone label{
+	display:block;
+	margin-bottom: 5px;
+	font-size: 18px;}
+	
+.fanZone input{ margin-bottom: 10px;}
+.login input{width: 200px;}
+
+.fanZone #login,
+.fanZone #logout{padding: 2px 20px;}
+
+.profile{
+	width: 250px;
+	height: 278px;
+	padding: 10px 0 0 10px;}
+
+.username{
+	margin-bottom:170px;
+	text-align: left;
+	overflow: hidden;}
+
+.username img{float:left;}
+.username span{
+	float:left;
+	width: 180px;
+	margin-left: 10px;
+	font-size: 20px;
+	overflow: hidden;}
+/*-------------------------------------------------------------------- BODY */
+.big-video { margin-bottom: 3rem; }
+h2,h3,h4{
+	margin-bottom: 0.5em;
+	font-family: Georgia,TimesNewRoman,serif;	
+	color: #9c8a4f;}
+
+h2{font-size:24px;}
+h3{font-size:16px;}
+
+.links{
+	position: fixed;	
+	top:23px;
+	right: 10px;
+	z-index:3;}
+.links a{
+	display:block; 
+	margin-bottom: 5px;
+	outline:none;}
+
+.lColumn{
+	float:left;
+	width: 460px;}
+
+.rColumn{
+	float: right;
+	width: 480px;}
+
+.page p{margin-bottom: 0.5em;}
+
+p{text-indent: 30px;}
+.block{margin-bottom:20px;}
+.movie{padding-left:50px;}
+.list{
+	padding: 0 30px 0 50px;
+	list-style-type: circle;}
+.list li{margin-bottom: 0.4em;}
+
+.rss p{margin-bottom: 0.4em;}
+/* -------------------------------------- images */		
+.gallery{
+	overflow: hidden;
+	margin-bottom: 0.5em;}
+
+.gallery img{				
+			padding: 8px;				
+			border: none;
+			}
+			
+.gallery a{				
+			float:left;
+			border:1px solid #c9c085;
+			background-color: #d8e3c6;
+			margin-right: 4px;
+			}				
+.gallery a:hover{border-color:#8a9b63; background-color:#f8db7d;}
+/*--------------------------------------- calendar */
+ 	.rColumn dl{margin-bottom: 20px;}
+				
+	.rColumn dt{
+				
+				height: 20px;
+				margin-top: 10px;
+				padding: 4px 2px 0 10px;
+				font-size: 11px;
+				font-weight: bold;
+				background-color:#d8e3c6; }
+				
+	.rColumn dd{margin: 10px 4px 0 10px;}
+/*-------------------------------------------------------------------- DISCOGRAPHY PAGE */
+.album{
+	float: left;
+	width: 400px;
+	height: 150px;
+	margin: 0 20px 20px 0;
+	overflow: hidden;}
+.album h3{font-size: 20px;}
+.album img{
+		float:left;
+		width: 120px;
+		margin: 0 10px 10px 0;
+		border: 2px solid #d0ddb9;
+	}
+/*-------------------------------------------------------------------- SONG TEXT PAGE */
+.song p{text-indent:0;}
+/*-------------------------------------------------------------------- SONG AUDIO PAGE */
+.audio{margin-bottom: 2em;}
+/*-------------------------------------------------------------------- ALBUM PAGE */
+.albumInfo{}
+.crumbs {
+		text-indent: 0;
+	}
+.nfo {
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+		margin-bottom: 1.618rem;
+	}
+.albumInfo .album {
+	float: none;
+	width: auto;
+	height: auto;
+	margin: 2em 0 1em 0;}
+
+.albumInfo .album img { 
+		float:left;
+		width: auto;
+	}
+
+.player {
+		padding-top: 30px;
+		visibility: hidden;
+	}
+.show {
+		visibility: visible;
+		/* animation: bounceIn 500ms ease-in-out both 2s; */
+		animation: bounceIn 500ms ease-in-out both;
+	}
+.player h3 {
+		margin-bottom: 1rem;
+	}
+.player-controls {
+		display: flex;
+		justify-content: left;
+		align-items: center;
+		gap: 1rem;
+	}
+.player-controls .btn {
+		width: 140px;
+		height: 46px;
+		padding: 1rem;
+		border-radius: 10px;
+		border: none;
+		color: white;
+		background-color: #697275;
+	}
+
+	dl.song {
+			display:block;
+			width: 620px;
+			height: 14px;
+			padding: 4px;
+			margin:0 0 3px 0;
+			font-family: Verdana, Helvetica, sans-serif;
+			font-size: 0.9em;
+			color: #6a5e36;
+			background-color:#edf6dc;
+			border: 1px solid #cbbe82;
+			clear:both;}
+			
+	dl.song dt{ 
+			float:left;
+			width: 250px;}
+
+	dl.song dd{ 
+			float:left;
+			width: 40px;
+			margin-left: 30px;	}
+			
+	dl.song dd a{
+				 font-size: 10px;
+				 font-weight: bold;
+				 text-decoration:none;}
+.crumbsSpace{margin-top:2em;}
+/*-------------------------------------------------------------------- GALLERIES PAGE */
+.galleries h3{padding-left: 30px;}
+.galleries p{margin-bottom: 2em;}
+#img{overflow: hidden;}
+#img img{
+			padding: 8px;				
+			border: none;}
+
+#img a{
+			float:left;
+			margin: 0 5px 5px 0;
+			border:1px solid #c9c085;
+			background-color: #d8e3c6;}
+
+#img a:hover{border-color:#8a9b63; background-color:#f8db7d;}
+
+ul.moveLine {
+    width: 176px;
+    height: 17px;
+    padding: 3px 0 0 524px;
+	margin: 1em 0;
+    text-decoration: none;    
+	background-color: #D8E3C6;}
+
+ul.moveLine li {
+    color: #C93E2D;
+    display: inline;
+    float: left;
+    font-family: Verdana,Arial,Helvetica,sans-serif;
+    font-size: 10px;
+    font-weight: bold;}
+
+ul.moveLine li a {}
+ul.moveLine li.ff { margin-left: 80px;}
+/*-------------------------------------------------------------------- CONTACT PAGE */
+.contactForm {margin-top: 1em;}
+form{padding: 1.5em;}
+.fields p{overflow: hidden;}
+.fields label{
+	float:left;
+	width: 120px;
+	padding-right: 6px;
+	text-align: right;	}
+.reg .fields label{ width: 200px;}	
+.fields input{
+	float:left;
+	width: 300px;}
+.fields select{
+	float:left;
+	width:302px;}
+.fields textarea{width: 920px;}
+.contactForm .submit input{padding: 2px 20px;}
+.reg .btn{margin-left: 200px;}
+
+.space{margin-left:120px;}
+/* ----------------------------------------------------------- COMMENTS FIELDS */				
+	#txt.forum form{ float:left; margin:0.4em 0;}
+	#txt.forum input{ margin-bottom: 10px;}
+	#txt.forum textarea{ width: 700px; margin-bottom: 10px; }
+	
+	
+	.comment_title{
+				display:table;				
+				width: 100%;
+				background-color: #D8E3C6;
+				margin-bottom: 2px;
+				padding: 3px;
+				clear:both;}	
+	
+	.comment_title dt{
+					float:left;
+					width: 450px; }
+
+	.comment_title img{
+					float:left;
+					margin-right: 6px;}
+					
+	.comment_title dd{
+					display:inline;
+					float:right;}
+
+ textarea{
+	width: 96%;
+	height: 250px;}
+
+ .btn{
+	display:block;
+	margin-top: 20px;}
+.forum_stat{
+	margin-bottom: 10px;
+	text-indent: 0;}
+.forum_stat a{margin:0 10px;}
+/*-------------------------------------------------------------------- END */
+.close{
+	padding: 44px 0 2em 0;
+	clear:both;}
+	
+.close .nav{
+	width:100%;
+	margin-bottom:26px;
+	text-align: center;}
+
+.close li{
+	display: inline;
+	margin-left: 40px;}
+/* -------------------------------------------   copyright  */	
+	.copyright{ 			
+			height: 60px;				
+			margin: 0 auto;				
+			text-align:left;}
+
+	.copyright p{			
+			float:left;
+			display:inline;
+			width: 500px;
+			padding-top: 10px;
+			font-size: 10px;
+			text-indent:0;}
+			
+	.copyright h3{ 
+			float: right;
+			width: 120px;			
+			font-size: 0px;			
+			text-align: right;
+			clear:right;}
+
+	.copyright h3 a{
+				display:block;
+				width: 103px;
+				height: 31px;				
+				background: url(../img/green/asterixworks.gif) no-repeat right bottom;				
+				text-decoration: none;}
+
+	.opyright h3 span{display: none;}
+
+.bottom{		
+		width:100%;		
+		background: url('../img/green/bkg_head.gif') repeat-x;
+		z-index:1;
+		clear:both;}
+
+.addthis_toolbox { margin-top : 4em; }
+.addthis_counter { margin-left : 40px; }
+
+@media screen and (max-width : 1100px){
+	.links{ display : none; }
+}
+
+
+
+/*-------------------------------------------------------------------- ANIMATIONS */
+@keyframes bounceIn {
+	from,
+	20%,
+	40%,
+	60%,
+	80%,
+	to {
+	  animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
+	}
+  
+	0% {
+	  opacity: 0;
+	  transform: scale3d(0.3, 0.3, 0.3);
+	}
+  
+	20% {
+	  transform: scale3d(1.1, 1.1, 1.1);
+	}
+  
+	40% {
+	  transform: scale3d(0.9, 0.9, 0.9);
+	}
+  
+	60% {
+	  opacity: 1;
+	  transform: scale3d(1.03, 1.03, 1.03);
+	}
+  
+	80% {
+	  transform: scale3d(0.97, 0.97, 0.97);
+	}
+  
+	to {
+	  opacity: 1;
+	  transform: scale3d(1, 1, 1);
+	}
+  }
