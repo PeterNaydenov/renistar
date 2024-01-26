@@ -11,10 +11,10 @@
     "astro": "astro"
   },
   "dependencies": {
-    "@astrojs/mdx": "^2.0.5",
+    "@astrojs/mdx": "^2.1.0",
     "@astrojs/sitemap": "^3.0.5",
-    "astro": "^4.2.1",
-    "wavesurfer.js": "^7.6.5"
+    "astro": "^4.2.5",
+    "wavesurfer.js": "^7.7.1"
   },
   "devDependencies": {
     "ask-for-promise": "^2.0.0",
